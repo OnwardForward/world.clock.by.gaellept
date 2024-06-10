@@ -13,8 +13,8 @@ function updateTime() {
     }
 
   // Tokyo
-    let tokyoElement = document.querySelector("#tokyo");
-    if (tokyoElement) {
+  let tokyoElement = document.querySelector("#tokyo");
+  if (tokyoElement) {
     let tokyoDateElement = tokyoElement.querySelector(".date");
     let tokyoTimeElement = tokyoElement.querySelector(".time");
     let tokyoTime = moment().tz("Asia/Tokyo");
@@ -42,9 +42,9 @@ function updateCity(event) {
     </div>
     <div class="time">${cityTime.format("h:mm:ss")} <small>${cityTime.format(
     "A"
-    )}</small></div>
-    </div>
-    `;
+  )}</small></div>
+  </div>
+  `;
 }
 
 updateTime();
