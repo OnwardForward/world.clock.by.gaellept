@@ -18,7 +18,7 @@ function updateTime() {
     let tokyoTime = moment().tz("Asia/Tokyo");
 
     tokyoDateElement.innerHTML = tokyoTime.format("MMMM	Do YYYY");
-    tokyoTimeElement.innerHTML = tokyoTime.format("h:mm:ss [<small>]A[</small>]");
+    tokyoTimeElement.innerHTML = tokyoTime.format"h:mm:ss [<small>]A[</small>]");
     }
 }
 
