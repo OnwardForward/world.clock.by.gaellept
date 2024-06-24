@@ -7,7 +7,8 @@ function updateTime() {
     let houstonTime = moment().tz("America/Ojinaga");
 
     houstonDateElement.innerHTML = houstonTime.format("MMMM	Do YYYY");
-    houstonTimeElement.innerHTML = houstonTime.format("h:mm:ss [<small>]A[</small>]");
+    houstonTimeElement.innerHTML = houstonTime.format("h:mm:ss [<small>]A[</small>]"
+        );
     }
 
   // Tokyo
